@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.awesome {
+    width: 100%;
+    margin: 107px auto 0;
+    text-align: center;
+}
+
+.description {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #86878B;
+
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+}
+
+.line {
+    width: 64px;
+    height: 2px;
+    margin: 30px auto;
+    background-color: orange;
+}
+
+.description__header {
+    color: black;
+}
+
+.card__image {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 30px;
+    background-image: url(images/lamp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid orange;
+    border-radius: 50%;
+}
+
+.card__image_icon {
+    background-image: url(images/key.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card {
+    display: inline-block;
+    width: calc(100%/4);
+    margin-bottom: 101px;
+}
+
+.m-rl-30 {
+    margin: 0 30px;
+}
+
+.awesome__header {
+    margin-bottom: 80px;
+}
+
+.card__title {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.section {
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.par {
+    color: black;
+    margin-bottom: 80px;
+}
+
+.title__section__list {
+    padding-top: 104px;
+}
+
+.section__list {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.list {
+    display: inline-block;
+    margin-bottom: 96px;
+    width: calc(100%/4);
+}
+
+.list ul li {
+    list-style-type: none;
+}
+
+.list ul:hover li {
+    opacity: 0.3;
+}
+
+.list ul li:hover {
+    transform: scale(1.1);
+    z-index: 100;
+    background: #100163;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .2);
+    color: #fff;
+    opacity: 1;
+}
+
+.list__card {
+    padding: 0;
+}
+
+.m-rl-40 {
+    margin: 0 40px;
+}
+
+.list__item1,
+.list__item2 {
+    color: white;
+    background-color: #2f2f2f;
+}
+
+.list__item1 {
+    padding-top: 21px;
+    padding-bottom: 17px;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.list__item2 {
+    padding-top: 30px;
+    border-bottom: 1px solid white;
+}
+
+.num {
+    line-height: 45px;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Grenze', serif;
+}
+
+.symbol {
+    font-size: 30px;
+}
+
+.list__item3 {
+    padding-top: 17px;
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+    background-color: #2f2f2f;
+}
+
+.list__itemfirst,
+.list__itemthirty {
+    border-bottom: 5px solid orange;
+}
+
+.list__item10 {
+    color: white;
+    background-color: orange;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 13px;
+    padding-bottom: 15px;
+}
+
+.list__item {
+    color: #86878B;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background-color: white;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.list__item:not(.last) {
+    border-bottom: 0.5px solid #f5f5f5;
+}
+
+.box {
+    width: 100%;
+    background-image: url(images/u25_state0@1X.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box__footer {
+    width: 100%;
+    background-color: black;
+    background-size: 1401px 101px;
+}
+
+.title__footer {
+    padding: 76px 0 26px;
+    color: white;
+}
+
+.line__footer {
+    margin: 0 auto 23px;
+    background-color: white;
+}
+
+.descriotion__footer {
+    margin-bottom: 33px;
+    color: white;
+}
+
+.social  {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    margin: 39px 25px 15px;
+    background-image: url(images/social\ icons.svg);
+    background-repeat: no-repeat;
+  }
+
+  .vk {
+    background-position: 0 0;
+  }
+
+  .vk:hover {
+    background-image: url(images/020-vk.svg);
+  }
+
+  .fb {
+    width: 12px;
+    background-position: -30px 0;
+  }
+
+  .fb:hover {
+    background-image: url(images/021-facebook.svg);
+  }
+
+  .gh {
+    width: 18px;
+    background-position: -47px;
+  }
+
+  .tl {
+    background-position: -70px 2px;
+  }
+
+  .inst {
+    background-position: -101px 1px;
+  }
+
+  .tw {
+    background-position: -126px;
+  }
+
+  .rss {
+    background-position: -151px;
+  }
+
+.descriotion__footer__box {
+    padding-bottom: 15px;
+    font-size: 12px;
+    color: white;
+}
+
+.btn {
+    width: 135px;
+    height: 42px;
+    margin-bottom: 63px;
+    padding: 0;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    outline: none;
+    transition-duration: 1s;
+}
+
+.btn:hover {
+    font-size: 22px;
+    background-color: black;
+    cursor: pointer;
+}
+
